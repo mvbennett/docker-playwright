@@ -9,8 +9,8 @@ export class OmniSearch {
     environment: "staging" | "uat" | "preprod" | "prod"
   ) {
     const apiEnvs = {
-      staging: "https://womphealthdevapi.azurewebsites.net",
-      uat: "https://womphealthtestapi.azurewebsites.net",
+      staging: "https://womphealthapi.azurewebsites.net",
+      uat: "https://womphealthapi.azurewebsites.net",
       prod: "https://womphealthapi.azurewebsites.net",
     };
 
