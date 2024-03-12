@@ -84,7 +84,7 @@ export class OmniSearchProvider extends OmniSearch {
     // @ts-ignore
     if (omniResponse.results?.length) {
       // @ts-ignore
-      const index = Math.floor(Math.random() * omniResponse.results.length);
+      const index = Math.floor(Math.random() * omniResponse.results.length) - 1;
       // @ts-ignore
       this.provider = omniResponse.results[index];
     }
@@ -113,7 +113,7 @@ export class OmniSearchLocation extends OmniSearch {
     // @ts-ignore
     if (omniResponse.results?.length) {
       // @ts-ignore
-      const index = Math.floor(Math.random() * omniResponse.results.length);
+      const index = Math.floor(Math.random() * omniResponse.results.length) - 1;
       // @ts-ignore
       this.location = omniResponse.results[index];
     }
